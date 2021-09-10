@@ -1,12 +1,19 @@
 body {
+<<<<<<< HEAD
     background-color: #40407A;
     margin: 0;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+=======
+    background-color: #F5F5F5;
+    color: #40407A;
+    font-family: Verdana, Helvetica, sans-serif;
+>>>>>>> parent of d1ff776 (needs more work)
 }
 
 header {
     background-color: #80CBC4;
+<<<<<<< HEAD
     background-image: url(lilyheader.jpg);
     background-repeat: no-repeat;
     background-position: right;
@@ -16,6 +23,16 @@ header {
 nav {
     font-weight: bold;
     text-align: center;
+=======
+    background-image: url(images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+>>>>>>> parent of d1ff776 (needs more work)
 }
 
 nav a {
@@ -24,6 +41,7 @@ nav a {
 
 footer {
     background-color: #80CBC4;
+<<<<<<< HEAD
     font-size: small;
     font-style: italic;
     text-align: center;
@@ -46,3 +64,34 @@ dd {
     font-size: ;
 }
 
+=======
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+}
+
+h1 { 
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+dd {
+    font-size: 90%;
+}
+
+li { 
+    font-size: 90%;
+}
+
+p {
+    width: 60%;
+}
+
+#yogadoor {
+    float: right;
+}
+
+#yogamat {
+    width: 100%;
+}
+>>>>>>> parent of d1ff776 (needs more work)
