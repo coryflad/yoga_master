@@ -73,6 +73,19 @@ section {
     padding-right: 0.5em;
 }
 
+table {
+    border: 1px solid #40407A;
+    margin-bottom: 1em;
+    min-width: 400px;
+    border-collapse: collapse;
+}
+
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
 footer {
     font-style: italic;
     text-align: center;
@@ -106,6 +119,20 @@ li {
 
 p {
     width: 60%;
+}
+
+td {
+    padding: 1em;
+    border: solid 1px #40407A;
+}
+
+th {
+    padding: 1em;
+    border: solid 1px #40407A;
+}
+
+tr:nth-of-type(even) {
+    background-color: #D7E8E9;
 }
 
 #yogadoor {
