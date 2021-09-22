@@ -181,6 +181,15 @@ tr:nth-of-type(even) {
     padding-left: 10%;
 }
 
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input, datalist textarea {
+    margin-bottom: 0.5em;
+}
+
 @media (min-width: 600px) {
     nav ul {
         display: flex;
@@ -195,6 +204,20 @@ tr:nth-of-type(even) {
     section {
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    form {
+        width: 60%;
+        max-width: 40em;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 9em 1fr;
+        gap: 1em;
+    }
+
+    input {
+        grid-column: 2 / 6;
+        width: 25em;
     }
 
     #mathero {

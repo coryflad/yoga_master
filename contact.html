@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Path of Light Yoga Studio :: Classes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial scale=1.0">
+    <link rel="stylesheet" href="yoga.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="classes.html">Classes</a> </li>
+            <li><a href="schedule.html">Schedule</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="home">
+        <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+    </header>
+    <div id="wrapper">
+        <main>
+            <h2>Contact Path of Light Yoga Studio</h2>
+            <p>Required fields are marked with an asterisk *</p>
+            <form method="POST" action="https://webdevbasics.net/scripts/yoga.php">
+                <label for="myName">* Name:</label>
+                <input type="text" name="myName" id="myName">
+                <label for="myEmail">* E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail">
+                <label>How did you hear about us?</label>
+                <input type="text" list="options" id="myReferral">
+                    <datalist id="options">
+                        <option>Google</option>
+                        <option>Bing</option>
+                        <option>Facebook</option>
+                        <option>Friend</option>
+                        <option>Radio Ad</option>
+                    </datalist>
+                <label for="myComments">* Comments:</label>
+                <textarea name="myComments" id="myComments" 
+                rows="2" cols="20" placeholder="What should I wear?"></textarea>
+                <input type="submit" value="Send Now">
+            </form>
+        </main>
+        <footer>
+            <h3 id="privacy"><a href="privacy.html">Our Privacy Policy</a></h3>
+            <small><i>Copyright &copy; 2021 Path of Light Yoga Studio</i></small><br>
+            <a href="mailto:cory@fladhammer.com">cory@fladhammer.com</a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
