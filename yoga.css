@@ -31,7 +31,9 @@ header h1 a:visited {
 }
 
 header h1 a:hover {
-    color: #EDF5F5;
+    color: #8F92B2;
+    transition-timing-function: ease-out;
+    transition: 10s;
 }
 
 nav {
@@ -103,6 +105,12 @@ h2 {
 
 a {
     text-decoration: none;
+    color: #40407A;
+    margin-right: 100px;
+}
+
+.savasana {
+    text-decoration: underline;
 }
 
 ul {
@@ -188,6 +196,10 @@ form {
 
 input, datalist textarea {
     margin-bottom: 0.5em;
+}
+
+audio {
+    margin-bottom: 1em;
 }
 
 @media (min-width: 600px) {
